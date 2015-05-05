@@ -28,10 +28,10 @@ main(int argc, char* argv[])
 	time(&seed);
 	srand((unsigned int)seed);
 
-	/*Alice make her private key and public key */
+	/*Alice generate her private key and public key */
 	DH_generate_key_pair(alice_public, alice_private);
 
-	/*make key for Bob */
+	/*Bob generate his private key and public key */
 	DH_generate_key_pair(bob_public, bob_private);
 
 	/*Bob send his public key to Alice, Alice generate the secret key */
