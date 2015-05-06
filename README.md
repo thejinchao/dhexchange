@@ -6,6 +6,16 @@ a very simple 128bit Diffie–Hellman key exchange algorithm
 gcc test.c dhexchange.c -o test
 ./test
 ```
+the result looks like:
+```
+alice_private=  21020c4a4c949fd14d0cf2a2402f2aff
+alice_public=   500c1bdba67f00684715fa5cdaf82724
+bob_private=    ad7521da95e27fc1e96c4bcda7e650b6
+bob_public=     c3e1e42bcb39d2f64b4c222fc6510801
+alice_secret=   c5156ec39e8bb1e7940f8dbfd53fd89c
+bob_secret=     c5156ec39e8bb1e7940f8dbfd53fd89c
+```
+
 ## About Diffie–Hellman key exchange
 
 http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange
